@@ -1,12 +1,15 @@
 package core;
 
 import core.controller.LanguageChoiceController;
+import core.controller.MainMenuController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.MenuBar;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -58,6 +61,29 @@ public class MainApp extends Application{
 
             // Give the controller access to the main app.
             LanguageChoiceController controller = loader.getController();
+            controller.setMainApp(this);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    public void showMainMenu(){
+        try {
+            // Load person overview
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("view/MainMenu.fxml"));
+            GridPane languageChoice = (GridPane) loader.load();
+
+            // Hide the menu bar
+            MenuBar menuBar = (MenuBar) rootLayout.lookup("#menubar");
+            menuBar.setVisible(false);
+            menuBar.setManaged(false);
+
+            // Set person overview into the centre of root layout
+            rootLayout.setCenter(languageChoice);
+
+            // Give the controller access to the main app.
+            MainMenuController controller = loader.getController();
             controller.setMainApp(this);
         } catch (IOException e){
             e.printStackTrace();
