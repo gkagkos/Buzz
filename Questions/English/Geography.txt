@@ -1,0 +1,9 @@
+Name the world's biggest island,Australia,Greenland,Africa,Cyprus,Greenland,2
+What is the world's longest river?,The Nile,Danube,Amazon,Mississippi,Amazon,3
+Name the world's largest ocean,Pacific,Atlantic,Indian,Arctic,Pacific,1
+What is the diameter of Earth?,10.000 miles,12.000 miles,11.000 miles,8.000 miles,8.000 miles,4
+Where would you find the world's most ancient forest?,Africa,USA,Europe,Australia,Australia,4
+Which is the capital city of England?,Liverpool,Glasgow,Newcastle,London,London,4
+What is the capital city of Spain?,Barcelona,Madrid,Valencia,Beijin,Madrid,2
+Which country is Prague in?,Russia,Spain,Greece,Czech Republic,Czech Republic,4
+Which is the capital city of China?,Hong Kong,Shangai,Beijin,Tokyo,Beijin,3

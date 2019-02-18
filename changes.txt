@@ -1,0 +1,7 @@
+sto english.txt line 15 -> "Bravo you answered right and you won"
+
+Για τις απαντησεις να δςθει επεξηγηση οτι η απαντηση πρεπει
+να ειναι γραμμενη ακριβως το ιδιο οπως οι προτεινομενες επιλογες και οχι οι αριθμοι
+
+
+What is the capital city of Spain?,Barcelona,Madrid,Valencia,Beijin,Madrid Να διορθωθει και στου πολυ η σωστη απαντηση ηταν γραμμενη ως Mandrid

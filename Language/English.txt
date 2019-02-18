@@ -1,0 +1,18 @@
+Hello, welcome to Buzz!!
+Give the player's name : 
+Give how many rounds you want to play : 
+Choose one : 
+1)Simple Answer : 
+2)Betting : 
+3)Show my points : 
+4)Exit : 
+Wrong input please try again...
+Press enter to continue.
+Player 
+ has got 
+ points.
+Bravo you answered right and you won 
+ points!!!
+Wrong answer
+Wrong answer your poénts reduced by 
+How much do you want to bet :
